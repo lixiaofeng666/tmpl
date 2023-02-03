@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "modern-normalize": "^1.1.0",
+    "vant": "^2.12.53",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"
   },
@@ -16,6 +18,14 @@
     "@vue/cli-plugin-router": "~4.5.19",
     "@vue/cli-service": "~4.5.19",
     "vue-template-compiler": "^2.6.11"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "trailingComma": "none",
+    "singleQuote": true,
+    "semi": false,
+    "bracketSameLine": true,
+    "arrowParens": "avoid"
   },
   "browserslist": [
     "> 1%",
